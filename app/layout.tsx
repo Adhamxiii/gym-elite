@@ -25,7 +25,7 @@ const poppins = Poppins({
   display: "swap",
 });
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "GymElite - Your Ultimate Fitness Platform",
   description:
     "Join GymElite, the ultimate fitness platform designed for trainees, coaches, and administrators. Track progress, access free workouts, and achieve your fitness goals today!",
@@ -85,13 +85,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
         className={`${oswald.variable} ${roboto.variable} ${poppins.variable}`}
       >
         <Header />
         {children}
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );
