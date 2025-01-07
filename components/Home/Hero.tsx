@@ -13,6 +13,8 @@ const Hero = () => {
           layout="fill"
           objectFit="cover"
           className="object-cover"
+          priority
+          loading="eager"
         />
         <div className="absolute inset-0 z-10 bg-gradient-to-b from-transparent to-[#010101] mix-blend-overlay" />
       </div>

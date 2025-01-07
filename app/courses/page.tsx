@@ -194,7 +194,7 @@ const CoursesPage = () => {
                   Filters
                 </Button>
               </SheetTrigger>
-              <SheetContent className="bg-neutral-950">
+              <SheetContent className="bg-neutral-950 [&>button]:text-white">
                 <SheetHeader>
                   <SheetTitle className="text-white">Filters</SheetTitle>
                 </SheetHeader>
@@ -210,7 +210,11 @@ const CoursesPage = () => {
                       </SelectTrigger>
                       <SelectContent className="bg-neutral-950">
                         {categories.map((category) => (
-                          <SelectItem key={category} value={category} className="text-white">
+                          <SelectItem
+                            key={category}
+                            value={category}
+                            className="text-white"
+                          >
                             {category}
                           </SelectItem>
                         ))}
@@ -228,7 +232,11 @@ const CoursesPage = () => {
                       </SelectTrigger>
                       <SelectContent className="bg-neutral-950">
                         {levels.map((level) => (
-                          <SelectItem key={level} value={level} className="text-white">
+                          <SelectItem
+                            key={level}
+                            value={level}
+                            className="text-white"
+                          >
                             {level}
                           </SelectItem>
                         ))}
@@ -246,7 +254,11 @@ const CoursesPage = () => {
                       </SelectTrigger>
                       <SelectContent className="bg-neutral-950">
                         {durations.map((duration) => (
-                          <SelectItem key={duration} value={duration} className="text-white">
+                          <SelectItem
+                            key={duration}
+                            value={duration}
+                            className="text-white"
+                          >
                             {duration}
                           </SelectItem>
                         ))}
