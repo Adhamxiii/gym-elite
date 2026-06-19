@@ -192,7 +192,7 @@ Contributions are welcome! To get started:
 
 ## Live Demo
 
-> **Demo URL:** [here](gym-elite-ten.vercel.app)
+> **Demo URL:** [here](https://gym-elite-tau.vercel.app/)
 
 The live demo showcases the full GymElite experience — browse courses, explore coaches, and try the fitness calculators in your browser.
 
