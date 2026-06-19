@@ -38,5 +38,9 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
-next-env.d.ts
+
+# bun (use npm on Vercel)
+bun.lockb
 .qodo
+
+.vercel
