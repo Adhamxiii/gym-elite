@@ -26,7 +26,6 @@ interface FeaturedCardProps {
     avatar: string;
   };
   specialization?: string;
-  rating?: number;
 }
 
 const FeaturedCard = ({
@@ -38,7 +37,6 @@ const FeaturedCard = ({
   price,
   instructor,
   specialization,
-  rating,
 }: FeaturedCardProps) => {
   return (
     <motion.div
